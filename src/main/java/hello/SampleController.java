@@ -12,11 +12,10 @@ public class SampleController {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-        return "Hello World!";
+        return "Hello World! Test spring";
     }
 
     public static void main(String[] args) throws Exception {
         SpringApplication.run(SampleController.class, args);
-        
     }
 }
